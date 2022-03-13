@@ -1,0 +1,13 @@
+.logo {
+  display: block;
+  transition: all 0.3s linear;
+
+  &__img {
+    width: 180px;
+    height: 36.42px;
+  }
+
+  &:hover {
+    opacity: 0.65;
+  }
+}

@@ -1,0 +1,13 @@
+.crypto {
+  text-align: center;
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    width: 100%;
+    max-width: 335px;
+    margin: 20px auto 0 auto;
+  }
+}

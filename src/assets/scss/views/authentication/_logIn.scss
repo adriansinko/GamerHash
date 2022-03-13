@@ -1,0 +1,27 @@
+.log_in {
+
+  &__form {}
+
+  &__bottom {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  &__information {
+    font-size: 16px;
+    line-height: 20px;
+    color: #7A7A7B;
+    letter-spacing: 0;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link {
+    color: #2C3138;
+    font-weight: 600;
+  }
+}

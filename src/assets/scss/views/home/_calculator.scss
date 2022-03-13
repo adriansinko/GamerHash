@@ -1,0 +1,30 @@
+.calculator {
+  background: #171A1F;
+  padding: 120px 0 167px 0;
+  text-align: center;
+  margin-top: 120px;
+
+  &__title {
+    color: #F9F9F9;
+  }
+
+  &__description {
+    color: #C1C1C1;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 23px;
+
+    @media screen and (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+
+  &__bottom {
+    display: inline-block;
+    margin-top: 80px;
+  }
+}

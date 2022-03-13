@@ -1,0 +1,22 @@
+.section {
+
+  &-title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #181B1F;
+  }
+
+  &-description {
+    color: #737373;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+
+    strong {
+      font-weight: 600;
+      color: #2C3138;
+    }
+  }
+}

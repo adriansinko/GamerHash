@@ -1,0 +1,55 @@
+.select-crypto {
+  &__item, &__left, &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    justify-content: space-between;
+    align-items: center;
+
+    &--result {
+      padding: 0 10px;
+    }
+
+    &--selection {
+      padding: 6px 22px 6px 8px;
+    }
+
+    &--selection > .select-crypto__right > .select-crypto__text:last-child {
+      @media screen and (max-width: 360px) {
+        display: none;
+      }
+    }
+  }
+
+  &__icon {
+    margin-right: 15px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0;
+
+    &--semiBold {
+      font-weight: 600;
+    }
+
+    &--medium {
+      font-weight: 500;
+    }
+
+    &--black {
+      color: #181B1F;
+    }
+
+    &--grey {
+      color: #737373;
+    }
+
+    &:first-child {
+      margin-right: 7px;
+    }
+  }
+}

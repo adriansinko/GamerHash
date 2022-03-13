@@ -1,0 +1,32 @@
+.card {
+  width: 280px;
+  height: 280px;
+  background: #171A1F;
+  box-shadow: -7px -7px 10px #272B3140,7px 7px 10px #0000001a;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 40px;
+
+  &__title {
+    color: #F9F9F9;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+
+  &__image {
+    margin-top: 12px;
+    width: 150px;
+    height: 150px;
+  }
+
+  &__text {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 20px;
+    color: #f41f33;
+    letter-spacing: 0;
+    font-weight: 700;
+  }
+}
